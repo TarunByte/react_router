@@ -6,7 +6,7 @@ import { Contact } from "./pages/Contact";
 import AppLayout from "./components/layouts/AppLayout";
 import "./App.css";
 import { ErrorPage } from "./pages/ErrorPage";
-import { getMoviesData } from "./API/GetApiData";
+import { getMoviesData } from "./API/GetAPIData";
 // import { NotFound } from "./pages/NotFound";
 
 const App = () => {
