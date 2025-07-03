@@ -682,6 +682,11 @@ footer {
   }
 }
 
+.section-hero-image {
+  width: 70%;
+  margin: 0 0 6rem 10rem;
+}
+
 /* media queries  */
 @media (width <= 1380px) {
   html {
@@ -848,5 +853,8 @@ footer {
   }
   :is(.section-contact--homepage) .container:first-child {
     padding: 6.4rem 0rem 2.4rem;
+  }
+  .section-hero-image {
+    margin: 0 auto;
   }
 }
